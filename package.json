@@ -1,0 +1,12 @@
+{
+  "name": "cinemind-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CineMind - AI-Powered Movie & TV Show Recommendation Platform",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"python backend/main.py\" \"cd frontend && npm run dev\""
+  }
+}
+

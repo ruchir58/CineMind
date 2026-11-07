@@ -1,0 +1,17 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.github/
+tests/
+scripts/
+frontend/node_modules/
+*.log
+.DS_Store
+Thumbs.db
+start.bat
+dev.bat
+
